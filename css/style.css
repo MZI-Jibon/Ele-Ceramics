@@ -44,6 +44,13 @@ a{
     font-size: 18px;
     /* line-height: 27px; */
 }
+.quick-links a:hover{
+    color: #15063F;
+}
+.quick-links a.active{
+    color: #15063F;
+    
+}
 
 .quick-links a:nth-of-type(1){
     padding-right: 58px;
@@ -62,9 +69,7 @@ a{
 }
 
 
-.quick-links a:hover{
-    color: #15063F;
-}
+
 .profile-icons{
     margin-left: 186px;
 }
