@@ -39,13 +39,12 @@ a{
 }
 .quick-links a{
     color: #616367;
-    /* padding-right: 65px; */
     font-weight: 400;
     font-size: 18px;
-    /* line-height: 27px; */
 }
 .quick-links a:hover{
     color: #15063F;
+    transition: .5s;
 }
 .quick-links a.active{
     color: #15063F;
@@ -176,7 +175,7 @@ hr{
 
 /*---------- Latest Products STARTS ----------*/
 
-.grid-container {
+.latest-products-container {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 515px 515px;
@@ -184,7 +183,7 @@ hr{
 
   }
   
-  .grid-container h2  {
+  .latest-products-container h2, .products-headline h2 {
     margin: 0;
     font-weight: 400;
     font-size: 60px;
@@ -192,7 +191,7 @@ hr{
     
   }
 
-.grid-container p  {
+.latest-products-container p  {
     margin: 0;
     font-weight: 400;
     font-size: 15px;
@@ -200,14 +199,14 @@ hr{
     color: #9FA3AE;
     
   }
-.grid-container h5  {
+.latest-products-container h5  {
     margin: -26px 0 0 0;
     font-weight: 400;
     font-size: 26px;
     line-height: 60px;
     color: #15063F;
 }
-.grid-container h5:hover {
+.latest-products-container h5:hover {
     color: #2E85C8;
     
     
@@ -289,6 +288,84 @@ hr{
 
 }
 /*---------- Exclusive Section ENDS ----------*/
+
+
+/*---------- Products On Sale STARTS ----------*/
+.product-on-sale-container{
+    display: grid;
+    grid-template-columns: 600px 577px;
+    margin-top: 205px;
+    
+}
+.products-quicklinks{
+    margin-top: -1px;
+}
+.products-quicklinks a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 80px;
+    color: #737373;
+    padding-bottom: 4px;
+
+    
+    border-bottom: 1px solid transparent;
+    
+}
+.products-quicklinks a:hover{
+    color: #15063F;
+    border-bottom: 1px solid #15063F;
+    transition: .5s;
+    
+}
+.products-quicklinks a.active{
+    color: #15063F;
+    border-bottom: 1px solid #15063F;
+}
+.products-quicklinks a:nth-of-type(1){
+    margin-right: 84px;
+}
+.products-quicklinks a:nth-of-type(2){
+    margin-right: 76px;
+}
+.products-quicklinks a:nth-of-type(3){
+    margin-right: 67px;
+}
+
+.products-container{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 370px 370px 370px ;
+    grid-gap: 55px 30px;
+    padding-top: 75px;
+
+}
+.products-container h5{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+    margin: 0;
+    color: #15063F;
+
+}
+.products-container{
+    font-weight: 400;
+    font-size: 20px;
+}
+.price-1{
+    margin-right: 16px;
+    text-decoration-line: line-through;
+    color: #9DB6CA;
+}
+.price-2{
+    margin-right: 16px;
+    color: #2E85C8;
+}
+/*---------- Products On Sale ENDS ----------*/
+
+
+/*---------- Latest Products STARTS ----------*/
+/*---------- Latest Products ENDS ----------*/
+
 /*---------- Latest Products STARTS ----------*/
 /*---------- Latest Products ENDS ----------*/
 /*---------- Latest Products STARTS ----------*/
